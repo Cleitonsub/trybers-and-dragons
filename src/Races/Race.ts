@@ -3,11 +3,11 @@ abstract class Race {
   /* 
     * Para permitir acesso ao name e dexterity
   */
-  get name(): string {
+  public get name(): string {
     return this._name;
   }
 
-  get dexterity(): number {
+  public get dexterity(): number {
     return this._dexterity;
   }
 
