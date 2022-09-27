@@ -1,6 +1,8 @@
 abstract class Race {
   constructor(private _name: string, private _dexterity: number) { }
-
+  /* 
+    * Para permitir acesso ao name e dexterity
+  */
   get name(): string {
     return this._name;
   }
